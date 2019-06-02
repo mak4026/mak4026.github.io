@@ -1,26 +1,27 @@
-title: Urban Template
-url: "https://teal-worm.cloudvent.net"
+title: make-u-topia.
+url: "https://mak4026.github.io"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: まけトピアのポートフォリオ
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name:
+  name: maktopia
   email:
-  twitter: # twitter username without the @ symbol
+  twitter: White_mak4026 # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: maktopia
   links:
-    - https://github.com/CloudCannon/urban-jekyll-template
+    - https://github.com/mak4026
+    - https://twitter.com/White_mak4026
 
-timezone: Etc/UTC
+timezone: Asia/Tokyo
 
 collections:
   staff_members:
@@ -47,6 +48,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - vendor
 
 defaults:
   - scope:
