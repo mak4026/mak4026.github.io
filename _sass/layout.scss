@@ -184,6 +184,16 @@ section {
 
 		img {
 			min-width: 100%;
+
+			&.top-works-card {
+				height: 150px;
+				object-fit: cover;
+			}
+
+			&.portfolio-card {
+				height: 300px;
+				object-fit: cover;
+			}
 		}
 
 		> a:hover {
@@ -210,7 +220,7 @@ section {
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.8);
 		padding: 20px;
 	}
 
@@ -244,4 +254,9 @@ section {
 	p {
 		color: #fefefe;
 	}
+}
+
+img.profile-image {
+	width: 250px;
+	border-radius: 30%;
 }

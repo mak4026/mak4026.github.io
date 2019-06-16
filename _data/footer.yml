@@ -4,27 +4,27 @@
       link: /
     - name: Portfolio
       link: /portfolio/
-    - name: Blog
-      link: /blog/
     - name: About
       link: /about/
-    - name: Contact
-      link: /contact/
 - title: Social
   links:
-    - name: Facebook
-      link:
-      social_icon: Facebook
-      new_window: true
-    - name: Twitter
-      link:
+    - name: '@White_mak4026'
+      link: https://twitter.com/White_mak4026
       social_icon: Twitter
       new_window: true
-    - name: Google+
-      link:
-      social_icon: Google Plus
+    - name: Hatena Blog
+      link: https://maktopia.hatenablog.com
+      social_icon: Blog
       new_window: true
-    - name: LinkedIn
-      link:
-      social_icon: LinkedIn
+    - name: 'GitHub'
+      link: https://github.com/mak4026/
+      social_icon: GitHub
+      new_window: true
+    - name: maktopia_ch
+      link: https://www.youtube.com/channel/UC65rhTrG0Mdhm7Xv4Tdl7iw
+      social_icon: YouTube
+      new_window: true
+    - name: SoundCloud
+      link: https://soundcloud.com/mak4026
+      social_icon: SoundCloud
       new_window: true

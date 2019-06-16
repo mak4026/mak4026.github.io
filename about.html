@@ -1,16 +1,97 @@
 ---
 title: About
-heading: Our team
-subtitle: Meet our efficient and qualified team.
+heading: Profile
+subtitle: About maktopia.
 ---
 
 <section class="diagonal patterned">
-	<div class="container">
-	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
-		<ul class="image-grid">
-			{% for member in site.staff_members %}
-				<li>{% include staff-member.html member=member %}</li>
-			{% endfor %}
-		</ul>
-	</div>
+    <div class="container halves">
+        <div>
+            <ul class="image-list">
+                <li><img class="profile-image" src="{{ site.baseurl }}/images/profile.png" width="300"></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="editable">まけトピア (maktopia)</h3>
+            <h4 class="editable">Program / Design / Sound</h4>
+            <p class="editable">神戸の私立高校で自由を謳歌し、東京大学に入学。教養学部のモラトリアムに浸かりながら、リアル謎解きイベントの制作に携わる。大学院に行けば何か変わるかもと思い、総合文化研究科に進学したが、結局イベントを作っていた。</p>
+            <p class="editable">研究対象はゲームに関する機械学習とインクリング。</p>
+            <p class="editable">昔は作曲やら動画制作やらデザインやらをしていたが、本業はプログラマーのはず。</p>
+        </div>
+    </div>
+    <div class="container">
+        <h3>主な作品</h3>
+        <div class="halves">
+            <ul class="image-grid">
+                {% for work in site.data.major_work limit: 4 %}
+                    <li><a href="{{ site.baseurl }}{{ work.url }}"><img class="portfolio-card" src="{% include relative-src.html src=work.image_path %}"></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="diagonal alternate">
+    <div class="container">
+        <div>
+            <h3>学歴</h3>
+            <ul>
+                <li>2014.4 - 2018.3<br>東京大学 教養学部学際科学科</li>
+                <li>2018.4 -  <br>東京大学大学院 総合文化研究科広域科学専攻</li>
+            </ul>
+        </div>
+        <div>
+            <h3>職歴</h3>
+            <ul>
+                <li>2018.10 - 2019.3<br>株式会社ドワンゴ 機械学習研究開発インターン @ <a href="https://dmv.nico/ja/" target="_blank">Dwango Media Village</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>プログラミングスキル</h3>
+            <h4>使える言語</h4>
+            <ul>
+                <li>Python</li>
+                <li>C#</li>
+                <li>C++</li>
+                <li>Ruby</li>
+                <li>javascript</li>
+                <li>Java</li>
+            </ul>
+            <h4>使えるフレームワーク</h4>
+            <ul>
+                <li>tensorflow (Machine Learning)</li>
+                <li>Keras (Machine Learning)</li>
+                <li>Unity (Game)</li>
+                <li>Ruby on Rails (Web)</li>
+                <li>jekyll (Web, このサイト)</li>
+            </ul>
+        </div>
+        <div>
+            <h3>サークル活動</h3>
+            <ul>
+                <li>東京大学謎解き制作集団 <a href="http://anothervision.tokyo" target="_blank">AnotherVision</a></li>
+                <li>東京大学DTMサークル TOKYO COM （現・<a href="http://gct.main.jp/" target="_blank">東京大学作曲研究会GCT</a>）</li>
+                <li>謎解き制作団体 <a href="https://twitter.com/moratorism" target="_blank">モラトリズム</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>趣味</h3>
+            <ul>
+                <li>ビデオゲーム<br>好きなのはスプラトゥーン・星のカービィ・MOTHERシリーズ・BEMANIシリーズなど</li>
+                <li>ゲーム音楽</li>
+                <li>マンガ・アニメ鑑賞</li>
+                <li>ボードゲーム</li>
+                <li>甘いものを食べること</li>
+                <li>コーヒー</li>
+                <li>DTM</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Splatoonプレイヤーとして</h3>
+            <ul>
+                <li><a href="https://maktopia.hatenablog.com/entry/2016/12/21/050255" target="_blank">第2回スプラトゥーン甲子園 ジャンプフェスタ選抜DAY2 出場</a></li>
+                <li><a href="https://maktopia.hatenablog.com/entry/2018/11/05/190000" target="_blank">第4回スプラトゥーン甲子園 関東地区大会DAY1 準優勝</a></li>
+            </ul>
+        </div>
+    </div>
 </section>
