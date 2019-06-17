@@ -1,6 +1,6 @@
 ---
 name: オンラインイベント
-title: eXtreme_union_match
+title: eXtreme union match
 subtitle: Splathon eXtreme - Union Match
 external_url: https://maktopia.hatenablog.com/entry/2019/05/27/192858
 image_path: /images/works/exunion.png

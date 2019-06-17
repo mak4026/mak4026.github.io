@@ -1,6 +1,6 @@
 ---
 name: プログラミングコンテスト（マラソン）
-title: HAL_progcon2017
+title: HAL progcon2017
 subtitle: ハル研究所プログラミングコンテスト2017
 external_url: https://www.hallab.co.jp/progcon/2017/
 image_path: /images/works/hal_prog2017.jpg

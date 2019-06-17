@@ -1,6 +1,6 @@
 ---
 name: Dwango Media Villageでのインターン
-title: splatoon_koshien_ML
+title: splatoon koshien ML
 subtitle: スプラトゥーン甲子園の配信映像からの勝敗予測モデルに基づくチーム戦略分析
 external_url: https://dmv.nico/ja/casestudy/splatoon_koshien/
 image_path: /images/works/splatoon_koshien.png

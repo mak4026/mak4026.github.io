@@ -1,6 +1,6 @@
 ---
 name: プラベでガチマbot
-title: splatoon_rating_bot
+title: splatoon rating bot
 subtitle: Splatoonのプライベートマッチにレーティングシステムを導入するbot
 external_url: https://maktopia.hatenablog.com/entry/2018/08/13/192204
 image_path: /images/works/private_rating_bot.jpg
