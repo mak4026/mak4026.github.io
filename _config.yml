@@ -21,6 +21,11 @@ social:
     - https://github.com/mak4026
     - https://twitter.com/White_mak4026
 
+twitter:
+  username: White_mak4026
+  card: summary
+
+lang: ja_JP
 timezone: Asia/Tokyo
 
 collections:
@@ -79,6 +84,10 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  - scope:
+      path: ""
+    values:
+      image: /images/profile.png
 
 # -----------
 # CloudCannon
