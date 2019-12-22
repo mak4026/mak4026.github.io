@@ -16,6 +16,10 @@
       link: https://maktopia.hatenablog.com
       social_icon: Blog
       new_window: true
+    - name: note.com
+      link: https://note.com/maktopia
+      social_icon: Blog
+      new_window: true
     - name: 'GitHub'
       link: https://github.com/mak4026/
       social_icon: GitHub
