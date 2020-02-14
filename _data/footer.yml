@@ -6,6 +6,8 @@
       link: /portfolio/
     - name: About
       link: /about/
+    - name: Likes
+      link: /likes/
 - title: Social
   links:
     - name: '@White_mak4026'

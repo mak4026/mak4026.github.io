@@ -85,6 +85,11 @@ defaults:
     values:
       layout: "default"
   - scope:
+      path: "likes.md"
+      type: "pages"
+    values:
+      layout: "like"
+  - scope:
       path: ""
     values:
       image: /images/profile.png
